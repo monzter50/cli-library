@@ -25,7 +25,6 @@ async function create(name) {
             message: 'Enter a brief description of your project:'
         }
     ];
-
     try {
         const answers = await inquirer.prompt(questions);
         const projectPath = path.join(process.cwd(), name);
