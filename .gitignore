@@ -1,6 +1,7 @@
 # Dependency directories
 node_modules/
 .idea/
+dist/
 # Logs
 logs
 *.log

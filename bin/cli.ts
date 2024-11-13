@@ -1,7 +1,6 @@
 #!/usr/bin/env node
-
 import { program } from 'commander';
-import { create, help } from '../src/index.js';
+import { create, help } from '@cli/index';
 
 program
     .version('1.0.0')

@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "lib": ["ESNext"],
+    "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowImportingTsExtensions": true,
+    "baseUrl": ".",
+    "paths": {
+      "@cli/*": ["./src/*"]
+    },
+    "outDir": "build"                        /* Skip type checking all .d.ts files. */
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules"]
+}

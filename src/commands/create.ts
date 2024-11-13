@@ -1,8 +1,8 @@
 import fs from 'fs';
 import path from 'path';
 
-import { createFolderStructure,displayFolderStructure } from '../utils/create-folder-structure/index.js';
-import { htmlProjectStructure } from '../utils/create-folder-structure/project-structure.js';
+import { createFolderStructure,displayFolderStructure } from '../utils/create-folder-structure';
+import { htmlProjectStructure } from '../utils/project-structure';
 import { fileURLToPath } from 'url';
 import inquirer from 'inquirer';
 import {execSync} from "child_process";
@@ -10,8 +10,9 @@ import {execSync} from "child_process";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const choices = ['templates-html', 'none'];
+
 async function create(name) {
-    const questions = [
+    const questions:any= [
         {
             type: 'list',
             name: 'type',
