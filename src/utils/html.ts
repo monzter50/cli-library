@@ -14,7 +14,7 @@ export const htmlTailwindCss = (name) =>`
     </div>
 </body>
 </html>
-  `
+  `;
 
 export const htmlReact = (name) =>`
 <!DOCTYPE html>
@@ -33,4 +33,4 @@ export const htmlReact = (name) =>`
 </body>
 <script src="./index.js"></script>
 </html>
-  `
+  `;
