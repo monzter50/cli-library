@@ -5,8 +5,7 @@ export const tailwindCss = `
     @tailwind utilities;
  `;
 
-export const css = ``
-
+export const css = "";
 export const tailwindConfig = `
     /** @type {import('tailwindcss').Config} */
 module.exports = {

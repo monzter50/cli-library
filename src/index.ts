@@ -1,4 +1,2 @@
-import create from './commands/create';
-import help from './commands/help';
-
-export { create, help };
+export { default as create } from "./commands/create";
+export { default as help } from "./commands/help";
